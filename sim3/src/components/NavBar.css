@@ -1,0 +1,50 @@
+.navbar {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  background-image: linear-gradient(97deg, #ff7a6e, #ff9770);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar li {
+  margin: 14px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+/*     navbar-left      */
+/************************/
+
+.navbar-name {
+  font-weight: 900;
+}
+
+.navbar-home {
+  /* No styles currently needed for icon */
+}
+
+.navbar-search {
+  /* No styles currently needed for icon */
+}
+
+/*       navbar-center      */
+/****************************/
+
+.navbar-dashboard {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
